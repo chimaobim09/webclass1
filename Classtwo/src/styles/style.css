@@ -1,0 +1,36 @@
+/* p {
+ color: blue;
+ font-weight: 700;
+}
+div {
+    color: red;
+}
+.companysnumber {
+    color: yellow;
+}
+#changeposition {
+    font-size: 50px;
+} */
+div {
+    border: 2px solid red;
+    /* padding: 30px; */
+    padding: 20px 0px 70px 90px;
+    margin: 50px 20px 0px 30px;
+}
+.title {
+    font-size: 30px;
+}
+/* .movethis {
+    transform: translateY(600px);
+} */
+section {
+    border: 2px solid green;
+    padding: 20px 10px 20px 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    padding: 20px;
+}

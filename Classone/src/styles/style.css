@@ -1,0 +1,14 @@
+table, th{
+   border: 1px solid green;
+   border-collapse: collapse;
+}
+td {
+    border: 1px solid red;
+}
+img {
+    width: 300px;
+    height: 120px;
+}
+table {
+    width: 100%;
+}
