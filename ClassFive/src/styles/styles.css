@@ -1,0 +1,54 @@
+nav {
+    display: flex;
+    background-color: red;
+    color: white;
+}
+.links {
+    display: flex;
+    list-style-type: none;
+}
+li {
+    padding: 10px;
+}
+.listed {
+    margin-left: 20%;
+}
+h1 {
+    padding-left: 10px;
+    letter-spacing: 2px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+h1:hover {
+    cursor: pointer;
+}
+.dropdown {
+    width: 120px;
+    height: 70px;
+    background-color: yellow;
+    color: green;
+    position: absolute;
+    border-radius: 5px;
+    display:none;
+}
+#dropdown:hover .dropdown {
+    display:block;
+}
+.squad {
+    list-style-type: none;
+    transform: translateX(-30px);
+    font-size: 18px;
+}
+.eleven {
+    font-size: 14px;
+}
+#working {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.content {
+    border: 1px solid red;
+    margin-top: 10px;
+}
